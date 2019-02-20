@@ -54,3 +54,15 @@ Processing by Rails::InfoController#properties as */*
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.11/lib/rails/templates/rails/info/properties.html.erb (0.3ms)
 Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 99.20.109.75 at 2019-02-20 04:41:58 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.11/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 31ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 99.20.109.75 at 2019-02-20 04:42:18 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
